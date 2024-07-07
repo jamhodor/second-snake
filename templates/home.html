@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+
+{% block head_title %}Welcome || {{ super() }}{% endblock head_title %}
+
+{% block content %}
+
+<br>
+<main role="main" class="inner cover">
+
+    <div class="jumbotron">
+        <div class="container text-center">
+
+          <h1 class="display-3">Welcome to Silvani Services</h1>
+          <p class="lead">Linguistic models require custom tailored processes to get alignment to your business needs. Silvani Services provides these from input to output to adjust and improve your outcome</p>
+          <p><a class="btn btn-primary btn-lg" href="{{ url_for('services') }}" role="button">Learn more »</a></p>
+        </div>
+      </div>
+
+    <br>
+<div class="container">
+        <!-- Example row of columns -->
+        <div class="row">
+          <div class="col-md-4">
+            <h2>Web Tools</h2>
+            <p class="lead">From sourcing alternative data to custom training of models. Web tools can help to get the data you need for testing, comparison and improvment.</p>
+
+          </div>
+          <div class="col-md-4">
+            <h2>Text Technology</h2>
+            <p class="lead">Linguistics can work in many ways. Using industrial standard language libraries for various processes provides custom-tailored and transparent outcomes.</p>
+
+          </div>
+          <div class="col-md-4">
+            <h2>Media Monitoring</h2>
+            <p class="lead">The Internet is vast. Navigating the modern landscape of the world wide web has become a journey of its own. Silvani Services gives you the clues you need.</p>
+
+          </div>
+        </div>
+
+
+
+      </div>
+
+</main>
+<br>
+
+{% endblock %}

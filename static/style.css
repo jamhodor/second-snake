@@ -1,0 +1,18 @@
+#email-link {
+    color: #326FAF;}
+
+/* a {color: #326FAF;} */
+
+.btn-primary {
+    background-color: #326FAF;
+    border-color: #326FAF;
+}
+.btn-primary:hover {
+    background-color: #326FAF;
+    opacity: 0.90;
+    border-color: #326FAF;
+    }
+
+footer div p{
+    color: #6e8896;
+    }

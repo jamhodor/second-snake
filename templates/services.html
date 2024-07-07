@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+
+{% block head_title %}Services || {{ super() }}{% endblock head_title %}
+
+{% block content %}
+
+<br>
+<div class="container">
+
+    <div class="row">
+        <div class="col-md-7">
+            <h2 class="featurette-heading">Web Tools. <span class="text-muted">From API to Data</span></h2>
+            <p class="lead">Sourcing the right data, be it from the internet or the own database, can be tricky and cumbersome but crucial to tasks involving language and media processing. Modern libraries provide solutions to prototype data retrieval for various uses cases such as testing, training and exploration. Digital tools provide lean processes to tag and train custom-tailored data sets. Applying solutions with web tools is a fast and agile way to overcome challenges within modern and traditional information infrastructures.
+            </p>
+        </div>
+        <div class="col-md-5">
+            <img class="featurette-image img-fluid mx-auto" src={{url_for('static', filename='presentation1b.jpg') }} alt="Macbook Bild">
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">Text Technology. <span class="text-muted">Parse with Precision</span></h2>
+            <p class="lead">The new language models are big in the news today. While the models perform brilliantly for large and noisy amount of data, many tasks in their context require pre- and post-processing steps to calibrate their outcome. Classic language processing approaches, like tokenisation, parsing, semantics and entity recognition do support the models, increase the precision, provide transparency with testing and also provide better data quality oversight. Classic linguistic rule-based approaches have their place within every language model. Silvani Services provides out of the box solutions to tackle unforeseen challenges in an agile and lean way.
+            </p>
+        </div>
+        <div class="col-md-5 order-md-1">
+            <img class="featurette-image img-fluid mx-auto" src={{url_for('static', filename='presentation2b.jpg') }} alt="Macbook Bild">
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading">Media Monitoring. <span class="text-muted">Your Guide to the Internet</span></h2>
+            <p class="lead">Understanding the source of your data is important. The media landscape has changed dramatically over the past decades. Society has shifted its way of consuming data with big implications for the political and business landscape. While language models can consume almost the entirety of the internet, understanding the sources improves risk management, model output, performance testing and provides further avenues to generate value.
+            </p>
+        </div>
+        <div class="col-md-5">
+            <img class="featurette-image img-fluid mx-auto" src={{url_for('static', filename='presentation3b.jpg') }} alt="Macbook Bild">
+        </div>
+    </div>
+
+</div>
+<br>
+{% endblock %}
